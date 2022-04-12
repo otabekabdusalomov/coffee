@@ -397,41 +397,33 @@
 
 /* SERVICES-ABOUT */
 .services-about-top{
-    margin: 165px;
+    padding: 84px 0;
 }
 .services-about-container {
     display: flex;
-    justify-content: space-between;
-    margin-left: 85px;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-about-box {
-    margin: 0;
-    margin-top: 90px;
-    margin-right: 125px;
-    
+    max-width: 540px;
+    margin-left: 125px;
 }
+
 .services-about-heading {
     margin: 0;
     padding: 0;
-    font-family: Fraunces 9pt;
-    font-style: normal;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
     color: #333D4B;
-    padding-bottom: 32px;
 }
 .services-about-desc {
-    margin: 0;
-    padding: 0;
-    max-width: 540px;
-    max-height: 260px;
-    font-family: Barlow;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;  
+    line-height: 26px;
     color: #333D4B;
     mix-blend-mode: normal;
     opacity: 0.8;
@@ -530,5 +522,43 @@
     color: #333d4b;
 }
 
+/* CREATE YOU PLAN */
+/* HERO-ABOUT */
+.hero-create{
+    padding-bottom: 70px;
+}
+
+.hero-create-container {
+    background-image: url(../image/logo\ create.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 116px 85px;
+    border-radius: 9px;
+}
+.hero-create-heading {
+    margin: 0;
+    padding: 0;
+    width: 493px;
+    margin-bottom: 32px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero-create-desc {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 56px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
 
 
